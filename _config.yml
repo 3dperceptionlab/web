@@ -536,6 +536,20 @@ phdstudents:
   google-plus: '#'
   vimeo: '#'
 
+students:
+
+# Team Member
+- name: Iván Rodriguez-Ferrandez
+  tagline: BsC Student | Cluster GPU Computing
+  avatar: fran.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
 
 #####################################
 ########## Pricing Tables ###########

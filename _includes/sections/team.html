@@ -82,4 +82,41 @@
 
   </div>
 
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="row text-center">
+
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <hr class="normal">
+        <h2>BsC/MsC Students</h2>
+      </header>
+
+    </div>
+
+    <!-- Team Members -->
+    <div class="row team-members-container">
+
+      {% for member in site.students %}
+
+      <!-- Member -->
+      <div class="col-md-3 col-md-push-0 col-sm-6 col-sm-push-0 col-xs-6 col-xs-push-0">
+        <div class="team-member">
+          <div class="img-wrapper">
+            <img src="{{ site.baseurl }}/images/avatars/{{ member.avatar }}" alt="Avatar Team Member" />
+          </div>
+          <div class="team-member-content">
+            <h3 class="name">{{ member.name }}</h3>
+            <h4 class="tagline">{{ member.tagline }}</h4>
+          </div>
+        </div>
+      </div>
+
+      {% endfor %}
+
+
+  </div>
+
+
 </section>
