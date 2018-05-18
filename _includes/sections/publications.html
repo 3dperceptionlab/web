@@ -1,0 +1,22 @@
+<!-- Publications Section -->
+<section class="site-section section-focus features-section" id="publications">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="row text-center">
+
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <h2>Publications</h2>
+        <hr class="normal">
+      </header>
+
+    </div>
+
+    {% for i in (2010..2018) reversed %}
+    <h2>{{ i }}</h2>
+      {% bibliography --file references.bib --query @*[year={{ i }}] %}
+    {% endfor %}
+
+  </div>
+</section>

@@ -1,0 +1,577 @@
+#
+# Sera - OnePage Jekyll Template
+# Configuration File
+#
+
+# Information for compile
+exclude: ["node_modules", "gulpfile.js", "package.json", "Gemfile", "README.md"]
+
+#
+# If your website is placed in a separate folder on your server please modify
+# this with your folder name, by default is empty.
+# Example: Sera Demo is hosted on projects.gleesik.ro/sera-onepage
+# If I compile Sera Template and I put in /sera-onepage without modifing baseurl
+# than scripts can't be loaded corectly.
+# For this example my site url is: projects.gleesik.ro (This can be just www.example.com)
+# My folder for Demo Website is: /sera-onepage so baseurl: /sera-onepage
+#
+baseurl: "/3dperceptionlab"
+
+# the base hostname & protocol for your site
+url: "https://labs.iuii.ua.es"
+
+####################################
+######   Optional Features    ######
+####################################
+smooth-scroll: false
+
+####################################
+###########   Plugins    ###########
+####################################
+plugins:
+  - jekyll-archives # Sorry, not GitHub pages friendly!
+  - jekyll-scholar
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+
+scholar:
+  style: assets/ieee-with-url.csl
+  locale: en
+
+  sort_by: year
+  order: descending
+  bibliography_list_tag: ul
+
+  source: _bibliography
+  repository: pdf
+  bibliography: references
+  bibliography_template: bib
+
+  replace_strings: true
+
+  query: "@*"
+
+#######################################################
+#######################################################
+###############   HEADER INFORMATIONS   ###############
+#######################################################
+#######################################################
+
+# This is your site title
+title: 3D Perception Lab
+# Website language
+lang: en-US
+# Header Title
+header-title: 3D <strong>Perception</strong> Lab
+# Header Tagline
+headter-tagline: University of Alicante
+
+####################################
+######   CTA Header Buttons   ######
+####################################
+
+# Focus Buttons
+header-focus-button:
+  title: Download Now
+  url: https://themeforest.net/collections/6069390-sera
+
+# Secondary Buttons
+header-secondary-button:
+  title: Discover More
+  url: http://themeforest.net/user/gleesik
+
+#
+# This is your email adress, contact from send here all emails from contact section
+# IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
+# To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
+#
+email: agarcia@dtic.ua.es
+
+# Offer Banner Link
+# Default link is a link to all Sera OnePage products
+banner-link: https://themeforest.net/collections/6069390-sera
+
+####################################
+######  Global Social Links   ######
+####################################
+youtube: '#'
+pinterest: '#'
+facebook: '#'
+twitter: '#'
+google-plus: '#'
+vimeo: '#'
+
+#########################
+######   Widgets   ######
+#########################
+
+#
+# About Blog Author Widget
+#
+about-widget:
+  author-avatar: avatar-02.jpg
+  author-name: John Doe
+  author-tagline: Blog Author
+  author-info: Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies.
+  author-social-links:
+    youtube: '#'
+    pinterest: '#'
+    facebook: '#'
+    twitter: '#'
+    google-plus: '#'
+
+# Google Map JS api
+# This is my api for this template
+key-api: AIzaSyDbnxVZQannH0GF4gtnnBFPiP9ofm2WqGs
+map-text: Escuela Politécnica Superior de la Universidad de Alicante
+map-text-location: Alicante, Spain
+map-lat: 38.385998
+map-lng: -0.513354
+
+# Enter your Mailchimp User ID and Campaign ID
+# @TODO: Add in a link for where to find these
+mailchimp:
+  user-id: REPLACEME
+  list-id: REPLACEME
+
+####
+#
+# Hi you now use Sera - OnePage Jekyll Template created by Gleesik™
+#
+# Below are each section from the website in order from top to bottom
+# @TODO Edit each sections with your real information and each section from Sera will autocomplete with your information
+#
+####
+
+#####################################
+#############   About   #############
+#####################################
+about-title: 3D Perception Lab
+about-description: The 3D Perception Lab at the University of Alicante is a group of researchers interested in the intersection of machine learning and computer vision. Our research mission focuses on various aspects of perception often related with mobile robotics in which we exploit 3D data as the main source of information. Some of our research lines include object recognition, semantic segmentation, rigid and non-ridig registration, visual localization and mapping, behavior analysis, and depth estimation. Apart from those general lines we are also highly interested in making those solutions run efficiently by leveraging GPU acceleration using CUDA. Aside from 3D data as our backbone, we are also tied together by our shared vision in the great potential of artificial intelligence, mainly deep learning, which we try to apply and push its limits in every project we work on.
+
+#####################################
+#############  Features  ############
+#####################################
+features-title: Research Lines
+features-description: Our main research lines are Machine Learning (Deep Learning specifically), 3D Computer Vision, and GPU Computing. Although our research usually focus on the intersection of those three fields, we are also open to applying our knowledge to cross-disciplinary problems that can be solved by applying artificial intelligence or computer vision techniques. We are also work on the acceleration of algorithms outside that scope that might benefit from a parallel/GPU implementation.
+
+#
+# Features
+#
+features:
+
+# Feature
+- title: Deep Learning
+  description: Artificial intelligence applied to computer vision and robotics (semantic segmentation, depth estimation, scene understanding, object recognition, localization and maping).
+  icon: pe-7s-vector
+
+# Feature
+- title: 3D Computer Vision
+  description: Traditional computer vision methods and new challenges for 3D data (rigid registration, non-rigid registration, reconstruction).
+  icon: pe-7s-help2
+
+# Feature
+- title: GPU Computing
+  description: Acceleration of computer vision methods and artificial intelligence pipelines for real-time execution and maximum efficiency.
+  icon: pe-7s-airplay
+
+#####################################
+############  Projects  ############
+#####################################
+projects-title: Projects
+projects-description: Our team develops its research lines through various funded projects related to computer vision and robotics. Take a look at our cutting-edge research.
+
+#
+# Portfolio Grid
+#
+projects:
+
+# Portfolio Item
+- title: COMBAHO
+  image: combaho.jpg
+  url: 'projects/2018/05/17/combaho.html'
+
+
+#####################################
+############  Portfolio  ############
+#####################################
+portfolio-title: Research Highlights
+portfolio-description: 
+
+#
+# Portfolio Grid
+#
+portfolio-categories: [Semantic Segmentation, Depth Estimation, Reconstruction, Object Recognition]
+portfolio:
+
+# Portfolio Item
+- title: S<span class="thin">era</span> Style
+  categories: [Websites, Graphic Design]
+  image: img-01.jpg
+  url: 'posts/combaho'
+
+#####################################
+##########  Core Features  ##########
+#####################################
+core-title: Core Features
+core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis aliquet diam ut eleifend.
+
+#
+# Core Features Left
+#
+core-features-left:
+
+# Feature
+- name: Creative
+  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  icon: pe-7s-light
+
+# Feature
+- name: Minimalism
+  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  icon: pe-7s-drop
+
+# Feature
+- name: Clean Coding
+  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  icon: pe-7s-coffee
+
+# Feature
+- name: Friendly
+  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  icon: pe-7s-smile
+
+#
+# Core Features Right
+#
+core-features-right:
+
+# Feature
+- name: Branding
+  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  icon: pe-7s-wine
+
+# Feature
+- name: Web Design
+  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  icon: pe-7s-monitor
+
+# Feature
+- name: Graphic Design
+  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  icon: pe-7s-crop
+
+# Feature
+- name: Photography
+  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  icon: pe-7s-camera
+
+
+#####################################
+########### Testimonials ############
+#####################################
+testimonials-title: Testimonials
+testimonials-description: Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi.
+
+#
+# Testimonials
+#
+testimonials:
+
+# Client
+- name: Johnatan Doe
+  url: http://themeforest.net
+  url-text: ThemeForest.net
+  avatar: avatar-01.jpg
+  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
+  logo-img: themeforest.png
+
+# Client
+- name: Adam Smith
+  url: http://codecanyon.net
+  url-text: CodeCanyon.net
+  avatar: avatar-02.jpg
+  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
+  logo-img: codecanyon.png
+
+# Client
+- name: Irene Warner
+  url: http://videohive.net
+  url-text: VideoHive.net
+  avatar: avatar-03.jpg
+  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
+  logo-img: videohive.png
+
+# Client
+- name: Richard Ryan
+  url: http://audiojungle.net
+  url-text: AudioJungle.net
+  avatar: avatar-04.jpg
+  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
+  logo-img: audiojungle.png
+
+
+#####################################
+############# Our Blog ##############
+#####################################
+blog-title: Our Blog
+blog-description:
+
+
+#####################################
+############### Team ################
+#####################################
+team-title: Meet Our Team
+team-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+
+#
+# Team Members
+#
+team:
+
+# Team Member
+- name: Jose Garcia-Rodriguez
+  tagline: Full Professor
+  avatar: fran.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Miguel Cazorla-Quevedo
+  tagline: Full Professor
+  avatar: fran.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Andres Fuster-Guillo
+  tagline: Full Professor
+  avatar: fran.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Jorge Azorin-Lopez
+  tagline: Full Professor
+  avatar: fran.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+ # Team Member
+- name: Higinio Mora-Mora
+  tagline: Full Professor
+  avatar: fran.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+ # Team Member
+- name: Antonio Jimeno-Morenilla
+  tagline: Full Professor
+  avatar: fran.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+
+# Team Member
+- name: Sergio Orts-Escolano
+  tagline: Assistant Professor
+  avatar: fran.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Marcelo Saval-Calvo
+  tagline: Assistant Professor
+  avatar: fran.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+
+phdstudents:
+
+# Team Member
+- name: Alberto Garcia-Garcia
+  tagline: PhD Student
+  avatar: albert.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Sergiu Ovidiu Oprea
+  tagline: PhD Student
+  avatar: sergiu.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Zuria Bauer Hartwig
+  tagline: PhD Student
+  avatar: zuri.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+
+# Team Member
+- name: Victor Villena-Martinez
+  tagline: PhD Student
+  avatar: victor.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Francisco Gomez-Donoso
+  tagline: PhD Student
+  avatar: fran.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Pablo Martinez-Gonzalez
+  tagline: PhD Student
+  avatar: pablo.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+
+#####################################
+########## Pricing Tables ###########
+#####################################
+pricing-title: Pricing Tables
+pricing-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+
+#
+# Plan Personal
+#
+plan-personal-price: $99
+plan-personal-offer-1-title: 01 PSD Pack
+plan-personal-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-personal-offer-2-title: 100 Support Tickets
+plan-personal-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-personal-url: '#'
+
+#
+# Plan Business
+#
+plan-business-price: $499
+plan-business-offer-1-title: 05 PSD Pack
+plan-business-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-business-offer-2-title: 1000 Support Tickets
+plan-business-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-business-url: '#'
+
+#
+# Plan Ultimate
+#
+plan-ultimate-price: $999
+plan-ultimate-offer-1-title: 10 PSD Pack
+plan-ultimate-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-ultimate-offer-2-title: Support Unlimited
+plan-ultimate-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-ultimate-url: '#'
+
+
+#####################################
+############   Contact   ############
+#####################################
+contact-title: Contact Us
+contact-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
+
+
+#####################################
+#############   Footer   ############
+#####################################
+footer-description:
+footer-copyright-text: 3D Perception Lab;
+footer-copyright-url: http://labs.iuii.ua.es/3dperceptionlab
+footer-copyright-year: 2018
