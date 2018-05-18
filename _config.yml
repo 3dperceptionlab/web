@@ -208,14 +208,14 @@ portfolio-description:
 #
 # Portfolio Grid
 #
-portfolio-categories: [Semantic Segmentation, Depth Estimation, Reconstruction, Object Recognition]
+portfolio-categories: [Semantic Segmentation, Depth Estimation, Reconstruction, Object Recognition, GPU Computing]
 portfolio:
 
 # Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Graphic Design]
-  image: img-01.jpg
-  url: 'posts/combaho'
+- title: Interactive 3D Object Recognition
+  categories: [Object Recognition, GPU Computing]
+  image: jrtip-grouping.png
+  url: 'highlights/2018/05/18/jrtip.html'
 
 #####################################
 ##########  Core Features  ##########
