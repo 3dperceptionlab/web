@@ -446,7 +446,7 @@ phdstudents:
 
 # Team Member
 - name: Alberto Garcia-Garcia
-  tagline: PhD Student
+  tagline: PhD Student | 3D Deep Learning
   avatar: albert.jpg
 
   # Social Links
@@ -459,7 +459,7 @@ phdstudents:
 
 # Team Member
 - name: Sergiu Ovidiu Oprea
-  tagline: PhD Student
+  tagline: PhD Student | Predictive Learning
   avatar: sergiu.jpg
 
   # Social Links
@@ -472,7 +472,7 @@ phdstudents:
 
 # Team Member
 - name: Zuria Bauer Hartwig
-  tagline: PhD Student
+  tagline: PhD Student | Depth Estimation
   avatar: zuri.jpg
 
   # Social Links
@@ -486,7 +486,7 @@ phdstudents:
 
 # Team Member
 - name: Victor Villena-Martinez
-  tagline: PhD Student
+  tagline: PhD Student | Non-rigid Reconstruction
   avatar: victor.jpg
 
   # Social Links
@@ -499,7 +499,7 @@ phdstudents:
 
 # Team Member
 - name: Francisco Gomez-Donoso
-  tagline: PhD Student
+  tagline: PhD Student | Object Recognition
   avatar: fran.jpg
 
   # Social Links
@@ -512,8 +512,21 @@ phdstudents:
 
 # Team Member
 - name: Pablo Martinez-Gonzalez
-  tagline: PhD Student
+  tagline: PhD Student | TBD
   avatar: pablo.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: John Castro-Vargas
+  tagline: PhD Student | TBD
+  avatar: john.jpg
 
   # Social Links
   youtube: '#'
