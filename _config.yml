@@ -198,6 +198,10 @@ projects:
   image: combaho.jpg
   url: 'projects/2018/05/17/combaho.html'
 
+- title: SIRMAVED
+  image: sirmaved.png
+  url: 'projects/2018/05/16/sirmaved.html'
+
 
 #####################################
 ############  Portfolio  ############
