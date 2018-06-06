@@ -343,7 +343,7 @@ team:
 # Team Member
 - name: Jose Garcia-Rodriguez
   tagline: Full Professor
-  avatar: fran.jpg
+  avatar: jgarcia.jpg
 
   # Social Links
   youtube: '#'
@@ -355,19 +355,6 @@ team:
 
 # Team Member
 - name: Miguel Cazorla-Quevedo
-  tagline: Full Professor
-  avatar: fran.jpg
-
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
-
-# Team Member
-- name: Andres Fuster-Guillo
   tagline: Full Professor
   avatar: fran.jpg
 
@@ -392,7 +379,20 @@ team:
   google-plus: '#'
   vimeo: '#'
 
- # Team Member
+# Team Member
+- name: Andres Fuster-Guillo
+  tagline: Full Professor
+  avatar: afuster.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
 - name: Higinio Mora-Mora
   tagline: Full Professor
   avatar: fran.jpg
@@ -405,7 +405,7 @@ team:
   google-plus: '#'
   vimeo: '#'
 
- # Team Member
+# Team Member
 - name: Antonio Jimeno-Morenilla
   tagline: Full Professor
   avatar: fran.jpg
