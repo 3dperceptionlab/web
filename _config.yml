@@ -393,33 +393,6 @@ team:
   vimeo: '#'
 
 # Team Member
-- name: Higinio Mora-Mora
-  tagline: Full Professor
-  avatar: fran.jpg
-
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
-
-# Team Member
-- name: Antonio Jimeno-Morenilla
-  tagline: Full Professor
-  avatar: fran.jpg
-
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
-
-
-# Team Member
 - name: Sergio Orts-Escolano
   tagline: Assistant Professor
   avatar: sergio.jpg
@@ -457,7 +430,7 @@ phdstudents:
   youtube: '#'
   pinterest: '#'
   facebook: '#'
-  twitter: '#'
+  twitter: '@albert.garcia93'
   google-plus: '#'
   vimeo: '#'
 
@@ -476,7 +449,7 @@ phdstudents:
 
 # Team Member
 - name: Zuria Bauer Hartwig
-  tagline: PhD Student | Depth Estimation
+  tagline: PhD Student | Deep Depth Estimation
   avatar: zuri.jpg
 
   # Social Links
@@ -516,7 +489,7 @@ phdstudents:
 
 # Team Member
 - name: Pablo Martinez-Gonzalez
-  tagline: PhD Student | TBD
+  tagline: PhD Student | Deep Online Learning
   avatar: pablo.jpg
 
   # Social Links
@@ -529,7 +502,7 @@ phdstudents:
 
 # Team Member
 - name: John Castro-Vargas
-  tagline: PhD Student | TBD
+  tagline: PhD Student | Deep Reinforcement Learning
   avatar: john.jpg
 
   # Social Links
@@ -543,8 +516,86 @@ phdstudents:
 students:
 
 # Team Member
-- name: Iván Rodriguez-Ferrandez
-  tagline: BsC Student | Cluster GPU Computing
+- name: Andres Carpena-Latour
+  tagline: MsC Automation and Robotics | Deep Reinforcement Learning
+  avatar: fran.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Alexei Jilinsky
+  tagline: BsC Multimedia Engineering | Virtual Reality
+  avatar: fran.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Adrian Frances-Lillo
+  tagline: BsC Multimedia Engineering | Reinforcement Learning
+  avatar: fran.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Pablo Lopez-Iborra
+  tagline: BsC Multimedia Engineering | Virtual Reality
+  avatar: fran.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Placido Lopez-Avila
+  tagline: BsC Computer Science | Deep Action Recognition
+  avatar: fran.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Jordi Amoros
+  tagline: BsC Computer Science | Deep Learning
+  avatar: fran.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Carlos Perello-Camacho
+  tagline: BsC Computer Science | Deep Natural Language Processing
   avatar: fran.jpg
 
   # Social Links
