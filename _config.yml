@@ -194,6 +194,10 @@ projects-description: Our team develops its research lines through various funde
 projects:
 
 # Portfolio Item
+- title: Tech4Diet
+  image: tech4diet.jpg
+  url: 'projects/2018/10/12/tech4diet.html'
+
 - title: COMBAHO
   image: combaho.jpg
   url: 'projects/2018/05/17/combaho.html'
