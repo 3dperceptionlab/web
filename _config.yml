@@ -216,10 +216,15 @@ portfolio-description:
 #
 # Portfolio Grid
 #
-portfolio-categories: [Semantic Segmentation, Depth Estimation, Reconstruction, Object Recognition, GPU Computing]
+portfolio-categories: [Semantic Segmentation, Virtual Reality, Dataset, Depth Estimation, Reconstruction, Object Recognition, GPU Computing]
 portfolio:
 
 # Portfolio Item
+- title: UnrealROX
+  categories: [Virtual Reality, Dataset]
+  image: unrealrox.png
+  url: 'highlights/2018/10/17/unrealrox.html'
+
 - title: Interactive 3D Object Recognition
   categories: [Object Recognition, GPU Computing]
   image: jrtip-grouping.png
