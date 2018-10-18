@@ -31,6 +31,7 @@ smooth-scroll: false
 plugins:
   - jekyll-archives # Sorry, not GitHub pages friendly!
   - jekyll-scholar
+  - jekyll-redirect-from
 
 jekyll-archives:
   enabled:
@@ -540,7 +541,7 @@ students:
 # Team Member
 - name: Alexei Jilinsky
   tagline: BsC Multimedia Engineering | Virtual Reality
-  avatar: fran.jpg
+  avatar: alexei.jpg
 
   # Social Links
   youtube: '#'

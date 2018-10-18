@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "UnrealROX: An eXtremely Photorealistic Virtual Reality Environment for Robotics Simulations and Synthetic Data Generation"
+redirect_from:
+ - /unrealrox/
 tagline: Research Highlight
 date: 2018-10-17 00:00
 categories: [Highlights]
