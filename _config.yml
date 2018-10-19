@@ -198,14 +198,17 @@ projects:
 - title: Tech4Diet
   image: tech4diet.jpg
   url: 'projects/2018/10/12/tech4diet.html'
+  description: This project is aimed at improvement the obesity treatment, from a multidisciplinary perspective by using state of the art technology of 3D modeling or virtual reality to study currently unsolved problems related to the adherence treatment. This opens new opportunities to study dietary and nutritional aspects and provides new challenges in technological research.
 
 - title: COMBAHO
   image: combaho.jpg
   url: 'projects/2018/05/17/combaho.html'
+  description: The main scientific objective of this project is to promote the health and well-being of society through the design, development and evaluation of an assistant for people with acquired or dependent brain damage to help them face the challenges posed by their illness in their full social integration in both indoor and outdoor environments.
 
 - title: SIRMAVED
   image: sirmaved.png
   url: 'projects/2018/05/16/sirmaved.html'
+  description: SIRMAVED is a multisensor system for rehabilitation and interaction of people with motor and cognitive disabilities. The system enables to perform different therapies using multiple modes of interaction (pose, body and hands gestures, voice, touch and gaze position) depending on the type and degree of disability. Through a training process, the system can be customized enabling the definition of patients’ own gestures for each sensor. The system is integrated with a range of applications for rehabilitation.
 
 
 #####################################
@@ -225,11 +228,13 @@ portfolio:
   categories: [Virtual Reality, Dataset]
   image: unrealrox.png
   url: 'highlights/2018/10/17/unrealrox.html'
+  description: UnrealROX is an environment built over Unreal Engine 4 which aims to reduce the reality gap when training deep learning architectures by leveraging hyperrealistic indoor scenes that are explored by robot agents which also interact with objects in a visually realistic manner in that simulated world.
 
 - title: Interactive 3D Object Recognition
   categories: [Object Recognition, GPU Computing]
   image: jrtip-grouping.png
   url: 'highlights/2018/05/18/jrtip.html'
+  description: In this work, we propose the implementation of a 3D object recognition system which will be optimized to operate under demanding time constraints. The system must be robust so that objects can be recognized properly in poor light conditions and cluttered scenes with significant levels of occlusion.
 
 #####################################
 ##########  Core Features  ##########
@@ -523,12 +528,25 @@ phdstudents:
   google-plus: '#'
   vimeo: '#'
 
+- name: Groot
+  tagline: Mascot
+  avatar: groot.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '@albert.garcia93'
+  google-plus: '#'
+  vimeo: '#'
+
+
 students:
 
 # Team Member
 - name: Andres Carpena-Latour
   tagline: MsC Automation and Robotics | Deep Reinforcement Learning
-  avatar: fran.jpg
+  avatar: acarpena.jpg
 
   # Social Links
   youtube: '#'
@@ -554,7 +572,7 @@ students:
 # Team Member
 - name: Adrian Frances-Lillo
   tagline: BsC Multimedia Engineering | Reinforcement Learning
-  avatar: fran.jpg
+  avatar: adri.jpg
 
   # Social Links
   youtube: '#'
@@ -567,7 +585,7 @@ students:
 # Team Member
 - name: Pablo Lopez-Iborra
   tagline: BsC Multimedia Engineering | Virtual Reality
-  avatar: fran.jpg
+  avatar: piborra.jpg
 
   # Social Links
   youtube: '#'
@@ -593,7 +611,7 @@ students:
 # Team Member
 - name: Jordi Amoros
   tagline: BsC Computer Science | Deep Learning
-  avatar: fran.jpg
+  avatar: jamoros.jpg
 
   # Social Links
   youtube: '#'
@@ -615,43 +633,6 @@ students:
   twitter: '#'
   google-plus: '#'
   vimeo: '#'
-
-#####################################
-########## Pricing Tables ###########
-#####################################
-pricing-title: Pricing Tables
-pricing-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
-
-#
-# Plan Personal
-#
-plan-personal-price: $99
-plan-personal-offer-1-title: 01 PSD Pack
-plan-personal-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-personal-offer-2-title: 100 Support Tickets
-plan-personal-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-personal-url: '#'
-
-#
-# Plan Business
-#
-plan-business-price: $499
-plan-business-offer-1-title: 05 PSD Pack
-plan-business-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-business-offer-2-title: 1000 Support Tickets
-plan-business-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-business-url: '#'
-
-#
-# Plan Ultimate
-#
-plan-ultimate-price: $999
-plan-ultimate-offer-1-title: 10 PSD Pack
-plan-ultimate-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-ultimate-offer-2-title: Support Unlimited
-plan-ultimate-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-ultimate-url: '#'
-
 
 #####################################
 ############   Contact   ############

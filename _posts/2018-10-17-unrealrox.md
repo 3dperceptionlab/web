@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "UnrealROX: An eXtremely Photorealistic Virtual Reality Environment for Robotics Simulations and Synthetic Data Generation"
-permalink: unrealrox
 redirect_from:
  - /unrealrox/
 tagline: Research Highlight

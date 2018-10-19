@@ -26,6 +26,8 @@
       {% for item in site.projects %}
 
       <div class="col-md-4 col-sm-6 item visible {% for category in item.categories %} {{ category | replace:' ','-' | downcase }}{% endfor %}">
+				<h4>{{ item.title }}</h4>
+				<p>{{ item.description }}</p>
         <figure class="img-wrap">
           <img src="{{ site.baseurl }}/images/projects/{{ item.image }}" alt="Portfolio Item Image" />
         </figure>
@@ -34,7 +36,7 @@
           <div class="links">
             <ul>
               <li><a href="{{ item.url }}" class="item-link"><i class="pe-7s-link"></i></a></li>
-              <li><a href="{{ site.baseurl }}/images/projects/{{ item.image }}" class="item-expand"><i class="pe-7s-exapnd2"></i></a></li>
+							<!--<li><a href="{{ site.baseurl }}/images/projects/{{ item.image }}" class="item-expand"><i class="pe-7s-exapnd2"></i></a></li>--!>
             </ul>
           </div>
         </div>
